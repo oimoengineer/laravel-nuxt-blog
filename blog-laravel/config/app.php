@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'blog-laravel-nuxt'),
 
     /*
     |--------------------------------------------------------------------------
@@ -211,5 +211,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
+
+    'frontend_url' => env('FRONTEND_URL', 'http://localhost'),
 
 ];
